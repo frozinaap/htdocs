@@ -1,0 +1,20 @@
+<form>
+    <h1 class="h3 mb-3 fw-normal" style="color:#dfdfdf">Вход</h1>
+
+    <div class="form-floating">
+      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+      <label for="floatingInput" style="color:#dfdfdf">Email</label>
+    </div>
+    <div class="form-floating">
+      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+      <label for="floatingPassword" style="color:#dfdfdf">Пароль</label>
+    </div>
+
+    <div class="checkbox mb-3">
+      <label style="color:#dfdfdf">
+        <input type="checkbox" value="remember-me"> Запомнить
+      </label>
+    </div>
+    <a href="private_office.php">Личный кабинет</a>
+    <button class="w-100 btn btn-lg btn-primary" type="submit" style="color:#dfdfdf">Войти</button>
+  </form>
